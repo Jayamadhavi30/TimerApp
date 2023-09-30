@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1><center>Multiple Timer App</center></h1>
+    <div >
+        <section class="timer-input">
+
+            <label for="time"> Set Time:</label>
+            <input type="text" id="time" placeholder="hh:mm:ss">
+            <button id="start-timer" class="start-timer">Set</button>
+            
+
+        </section>
+        
+    </div>
+    <div class="layout-style">
+        
+
+        <h4  id="heading2"><center>Current Timers</center></h4>
+    </div>
+    <div class="active-timers">
+        <!-- Active timers will be displayed here -->
+    </div>
+
+  
+    <div class="timer-end-display">
+        <!-- Timer end display will be shown here -->
+    </div>
+
+    <audio id="audio-alert" src="alert.wav"></audio>
+    <!-- ^ Corrected the id from "alert-sound" to "audio-alert" -->
+    <script src="script.js"></script>
+</body>
+</html>
